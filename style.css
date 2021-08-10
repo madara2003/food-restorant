@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/*  */
+.header {
+   height: 1248px;
+   margin: 0 auto;
+   position: relative;
+   background-image: url('img/Place_Your_Image_Here\(Double_Click_to_Edit\).png');
+   background-position: center;
+   background-repeat: no-repeat;   
+   background-size: cover;
+}
+.menu {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+}
+.menu__item {
+    font-family: 'Chivo', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 30px;
+}
+.info {
+    top: 0;
+    position: absolute;
+    margin-top: 80px;
+    background-image: url('img/Place_Your_Design_Here\(Double_Click_to_Edit\).png');
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 1116px;
+    width: 1625px;
+}
+.info__restorant {
+    font-family: 'Chivo', sans-serif;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.info__highlight {
+    font-family: 'Chivo', sans-serif;
+    color: #ffffff;
+    margin-top: 220px;
+    font-size: 60px;
+    font-weight: 400;
+}
+.info__link {
+    font-family: 'Chivo', sans-serif;
+    margin-top: 33px;
+    color: #ffc901;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.info__logo {
+    margin-top: 60px;
+    width: 321px;
+    height: 136px;
+}
+.info__booking {
+    margin-top: 210px;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 56.09px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.info__booking_span {
+    color: #ffc901;
+}
+
+/* section About */
+
+.about {
+    font-family: 'Overpass', sans-serif;
+    background-image: url('img/ba-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shape {
+    width: 63px;
+    height: 17px;
+}
+.about__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+.about__highlight-container {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+}
+.about__highlight {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 58.44px;
+    margin: 0 50px;
+}
+.about__text {
+    width: 580px;
+    margin-top: 130px;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 33.31px;
+    text-align: center;
+    font-weight: 300;
+}
+.about__link {
+    margin: 115px 0;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 33px;
+}
+.about__link-span {
+    color: #ffc901;
+}
+
+/* Quality section */
+.quality {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url('img/ssss.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quality__grid {
+    display: flex;
+}
+.quality__highlight-container {
+    font-family: 'Chivo', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 360px;
+    align-items: center;
+}
+.quality__text {
+    font-family: 'Overpass', sans-serif;
+    margin-top: 120px;
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.quality__info {
+    font-family: 'Chivo', sans-serif;
+    text-align: center;
+    margin-top: 110px;
+    font-weight: bold;
+    font-size: 75px;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 1.22px;
+    
+}
+.quality__info-part {
+    font-family: 'Chivo', sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 1.75px;
+}
+.quality__discount {
+    color: #ffc901;
+    font-size: 36px;
+    line-height: 51.21px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0 225px
+}
+
+/* Gallery styling */
+
+.gallery {
+    background-image: url('img/Place_Your_Image_Here\(Double_Click_to_Edit\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.highlight {
+    display: flex;
+    justify-content: center;
+    padding: 110px 0;
+    align-items: center;
+}
+.highlight__name {
+    font-family: 'Chivo', sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 70px;
+}
+.gallery__works {
+    width: 1600px;
+    height: 1100px;
+    margin: 0 auto;
+}
+/* i will do it lately */
+
+.contact {
+    background-image: url('img/contact__bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form {
+    font-family: 'Overpass', sans-serif;
+    margin-top: 100px;
+}
+.form__item {
+   margin: 55px 0;
+}
+.form__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    margin:0 auto;
+    display: flex;
+}
+.contact__info {
+    font-family: 'Overpass', sans-serif;
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 66.65px;
+    text-align: center;
+}
+.form__label {
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+}
+.form__input {
+  width: 414px;
+  height: 57px;
+  border-radius: 8px;
+  border: 3px solid #ffc901;
+}
+.btn {
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 50px;
+    background: #ffc901;
+    padding: 16px 100px;
+    border-radius: 20px;
+}
+.container_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* credo styling */
+.credo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/lol.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quotes {
+    font-size: 121px;
+    color: #ffc901;
+    font-weight: 700;
+}
+.credo__text {
+    font-family: 'Overpass', sans-serif;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 300;
+    text-align: center;
+}
+.credo_autor-name {
+    font-family: 'Chivo', sans-serif;
+    margin: 50px 0 60px 0;
+    color: #ffc901;
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.2em;
+}
+
+/* addinfo styling */
+
+.addinfo {
+    font-family: 'Chivo', sans-serif;
+    background-image: url('img/Rectangle.png');
+    border-bottom: 2px dotted yellow;
+}
+.addinfo__container {
+    background-image: url('img/food.png');
+    background-position: left/center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.addinfor__container-first {
+    width: 600px;
+    text-align: center;
+}
+.addinfo_hg {
+    padding-top: 170px;
+    color: #ffc901;
+    font-size: 50px;
+    font-weight: 300;
+}
+.addinfo__text {
+    font-family: 'Overpass', sans-serif;
+    margin: 50px;
+    color: #ffffff;
+    font-size: 29px;
+    font-size: 29px;
+    font-weight: 400;
+}
+.addinfo__contact {
+   padding-bottom: 170px;
+    color: #ffc901;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase; 
+}
+
+/* footer styling */
+
+.footer {
+    font-family: 'Overpass', sans-serif;
+    background-image: url('img/lol.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__logo {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 248px;
+    height: 105px;
+}
+.footer__menu {
+    display: flex;
+}
+.footer__item {
+    color: #e7e6e6;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 35px;
+}
+.social {
+    padding: 60px 0 100px 0;
+    display: flex;
+}
+.social__item {
+    margin: 0 12px;
+    width: 50px;
+    height: 50px;
+}
+/* Extra large tablets */
+@media (max-width: 1640px) {
+    .form__container  {
+        width: 1200px;
+    }
+    .gallery__works {
+        width: 1200px;
+        height: 1100px;
+        margin: 0 auto;
+    }
+    .menu__item {
+        font-size: 16px;
+    }
+   .info {
+       width: 1200px;
+   }  
+   .info__highlight {
+       font-size: 50px;
+   }
+   .info__link {
+       font-size: 30px;
+   }
+   .info__booking {
+       font-size: 38px;
+   }
+}
+/* Large screen media */
+@media (max-width: 1200px) {
+    .gallery__works {
+        width: 1024px;
+        height: 800px;
+        margin: 0 auto;
+    }
+    .info {
+        width: 1024px;
+    } 
+    .menu__item_display {
+        display: none;
+    } 
+    .menu__item {
+        font-size: 15px;
+    }
+    .bg {
+        display: none;
+    }
+    .quality {
+        grid-template-columns: 1fr;
+    }
+    .quality__container {
+        background-image: url('img/sss.png') ;
+        background-position: top/top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .form__container  {
+        width: 1024px;
+    }
+    .form__label {
+        font-size: 25px;
+    }
+    .highlight__name {
+        font-size: 45px;
+    }
+    .contact__info {
+        font-size: 35px;
+    }
+    .btn {
+        font-size: 28px;
+        padding: 12px 54px;
+    }
+}
+
+/* small screen/ laptops media */
+  @media (max-width: 1024px) {
+    .footer__item  {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+    .info  {
+        width: 769px;
+    }
+    .menu__item {
+        padding: 0 10px;
+    }
+   
+    .menu__item {
+        font-size: 16px;
+    }
+    .form__container  {
+        width: 400px;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items:center ;
+        justify-content: center;
+    }
+  
+   .info__highlight {
+       font-size: 30px;
+   }
+   .info__link {
+       font-size: 20px;
+   }
+   .info__booking {
+       font-size: 28px;
+   }
+}
+/* ipads/ Tablets */
+@media (max-width: 769px) {
+   .header {
+    
+   }
+}
